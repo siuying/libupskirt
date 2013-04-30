@@ -74,8 +74,8 @@
     const char * prose = [rawMarkdown UTF8String];  
     struct buf *ib, *ob;       
     
-    int length = rawMarkdown.length + 1;
-    
+    //int length = rawMarkdown.length + 1;
+    int length = strlen(prose);
     ib = bufnew(length);
     bufgrow(ib, length);
     memcpy(ib->data, prose, length);
