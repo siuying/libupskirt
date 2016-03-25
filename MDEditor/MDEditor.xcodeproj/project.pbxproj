@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5260E4C158B573700A78538 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5260E4B158B573700A78538 /* UIKit.framework */; };
+		F5260E4E158B573700A78538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5260E4D158B573700A78538 /* Foundation.framework */; };
+		F5260E50158B573700A78538 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5260E4F158B573700A78538 /* CoreGraphics.framework */; };
+		F5260E56158B573700A78538 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5260E54158B573700A78538 /* InfoPlist.strings */; };
+		F5260E58158B573700A78538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5260E57158B573700A78538 /* main.m */; };
+		F5260E5C158B573700A78538 /* MDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5260E5B158B573700A78538 /* MDAppDelegate.m */; };
+		F5260E64158B579B00A78538 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5260E63158B579B00A78538 /* MainWindow.xib */; };
+		F5260E6F158B580C00A78538 /* MDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5260E6D158B580C00A78538 /* MDViewController.xib */; };
+		F5260E77158B5AFA00A78538 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5260E75158B5AFA00A78538 /* RootViewController.m */; };
+		F5260E78158B5AFA00A78538 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5260E76158B5AFA00A78538 /* RootViewController.xib */; };
+		F5260E99158B5DC900A78538 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = F5260E97158B5DC900A78538 /* array.c */; };
+		F5260E9C158B5DD800A78538 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = F5260E9A158B5DD800A78538 /* buffer.c */; };
+		F5260E9F158B5DE500A78538 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = F5260E9D158B5DE500A78538 /* markdown.c */; };
+		F5260EA2158B5DF400A78538 /* renderers.c in Sources */ = {isa = PBXBuildFile; fileRef = F5260EA0158B5DF400A78538 /* renderers.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5260E47158B573700A78538 /* MDEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5260E4B158B573700A78538 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5260E4D158B573700A78538 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5260E4F158B573700A78538 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5260E53158B573700A78538 /* MDEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDEditor-Info.plist"; sourceTree = "<group>"; };
+		F5260E55158B573700A78538 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5260E57158B573700A78538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5260E59158B573700A78538 /* MDEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDEditor-Prefix.pch"; sourceTree = "<group>"; };
+		F5260E5A158B573700A78538 /* MDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppDelegate.h; sourceTree = "<group>"; };
+		F5260E5B158B573700A78538 /* MDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppDelegate.m; sourceTree = "<group>"; };
+		F5260E63158B579B00A78538 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		F5260E6D158B580C00A78538 /* MDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MDViewController.xib; path = Classes/MDViewController.xib; sourceTree = "<group>"; };
+		F5260E74158B5AFA00A78538 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
+		F5260E75158B5AFA00A78538 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
+		F5260E76158B5AFA00A78538 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
+		F5260E97158B5DC900A78538 /* array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = array.c; path = "siuying-libupskirt-2219f29/array.c"; sourceTree = "<group>"; };
+		F5260E98158B5DC900A78538 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = array.h; path = "siuying-libupskirt-2219f29/array.h"; sourceTree = "<group>"; };
+		F5260E9A158B5DD800A78538 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = "siuying-libupskirt-2219f29/buffer.c"; sourceTree = "<group>"; };
+		F5260E9B158B5DD800A78538 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "siuying-libupskirt-2219f29/buffer.h"; sourceTree = "<group>"; };
+		F5260E9D158B5DE500A78538 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = "siuying-libupskirt-2219f29/markdown.c"; sourceTree = "<group>"; };
+		F5260E9E158B5DE500A78538 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = "siuying-libupskirt-2219f29/markdown.h"; sourceTree = "<group>"; };
+		F5260EA0158B5DF400A78538 /* renderers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = renderers.c; path = "siuying-libupskirt-2219f29/renderers.c"; sourceTree = "<group>"; };
+		F5260EA1158B5DF400A78538 /* renderers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = renderers.h; path = "siuying-libupskirt-2219f29/renderers.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5260E44158B573700A78538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5260E4C158B573700A78538 /* UIKit.framework in Frameworks */,
+				F5260E4E158B573700A78538 /* Foundation.framework in Frameworks */,
+				F5260E50158B573700A78538 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5260E3C158B573600A78538 = {
+			isa = PBXGroup;
+			children = (
+				F5260E51158B573700A78538 /* MDEditor */,
+				F5260E4A158B573700A78538 /* Frameworks */,
+				F5260E48158B573700A78538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5260E48158B573700A78538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5260E47158B573700A78538 /* MDEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5260E4A158B573700A78538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5260E4B158B573700A78538 /* UIKit.framework */,
+				F5260E4D158B573700A78538 /* Foundation.framework */,
+				F5260E4F158B573700A78538 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5260E51158B573700A78538 /* MDEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F5260E96158B5DB900A78538 /* Markdown */,
+				F5260E65158B57AE00A78538 /* Classes */,
+				F5260E62158B578B00A78538 /* Nibs */,
+				F5260E5A158B573700A78538 /* MDAppDelegate.h */,
+				F5260E5B158B573700A78538 /* MDAppDelegate.m */,
+				F5260E52158B573700A78538 /* Supporting Files */,
+			);
+			path = MDEditor;
+			sourceTree = "<group>";
+		};
+		F5260E52158B573700A78538 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5260E53158B573700A78538 /* MDEditor-Info.plist */,
+				F5260E54158B573700A78538 /* InfoPlist.strings */,
+				F5260E57158B573700A78538 /* main.m */,
+				F5260E59158B573700A78538 /* MDEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5260E62158B578B00A78538 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				F5260E76158B5AFA00A78538 /* RootViewController.xib */,
+				F5260E6D158B580C00A78538 /* MDViewController.xib */,
+				F5260E63158B579B00A78538 /* MainWindow.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		F5260E65158B57AE00A78538 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5260E74158B5AFA00A78538 /* RootViewController.h */,
+				F5260E75158B5AFA00A78538 /* RootViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F5260E96158B5DB900A78538 /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				F5260EA0158B5DF400A78538 /* renderers.c */,
+				F5260EA1158B5DF400A78538 /* renderers.h */,
+				F5260E9D158B5DE500A78538 /* markdown.c */,
+				F5260E9E158B5DE500A78538 /* markdown.h */,
+				F5260E9A158B5DD800A78538 /* buffer.c */,
+				F5260E9B158B5DD800A78538 /* buffer.h */,
+				F5260E97158B5DC900A78538 /* array.c */,
+				F5260E98158B5DC900A78538 /* array.h */,
+			);
+			name = Markdown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5260E46158B573700A78538 /* MDEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5260E5F158B573700A78538 /* Build configuration list for PBXNativeTarget "MDEditor" */;
+			buildPhases = (
+				F5260E43158B573700A78538 /* Sources */,
+				F5260E44158B573700A78538 /* Frameworks */,
+				F5260E45158B573700A78538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDEditor;
+			productName = MDEditor;
+			productReference = F5260E47158B573700A78538 /* MDEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5260E3E158B573600A78538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Eugein;
+			};
+			buildConfigurationList = F5260E41158B573600A78538 /* Build configuration list for PBXProject "MDEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5260E3C158B573600A78538;
+			productRefGroup = F5260E48158B573700A78538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5260E46158B573700A78538 /* MDEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5260E45158B573700A78538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5260E56158B573700A78538 /* InfoPlist.strings in Resources */,
+				F5260E64158B579B00A78538 /* MainWindow.xib in Resources */,
+				F5260E6F158B580C00A78538 /* MDViewController.xib in Resources */,
+				F5260E78158B5AFA00A78538 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5260E43158B573700A78538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5260E58158B573700A78538 /* main.m in Sources */,
+				F5260E5C158B573700A78538 /* MDAppDelegate.m in Sources */,
+				F5260E77158B5AFA00A78538 /* RootViewController.m in Sources */,
+				F5260E99158B5DC900A78538 /* array.c in Sources */,
+				F5260E9C158B5DD800A78538 /* buffer.c in Sources */,
+				F5260E9F158B5DE500A78538 /* markdown.c in Sources */,
+				F5260EA2158B5DF400A78538 /* renderers.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5260E54158B573700A78538 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5260E55158B573700A78538 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5260E5D158B573700A78538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hywel Jones (39WQ42JYK6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "72D9F2BF-DC4A-40EA-A9C8-C2C12CC73E7D";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5260E5E158B573700A78538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hywel Jones (39WQ42JYK6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "72D9F2BF-DC4A-40EA-A9C8-C2C12CC73E7D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5260E60158B573700A78538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDEditor/MDEditor-Prefix.pch";
+				INFOPLIST_FILE = "MDEditor/MDEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5260E61158B573700A78538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDEditor/MDEditor-Prefix.pch";
+				INFOPLIST_FILE = "MDEditor/MDEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5260E41158B573600A78538 /* Build configuration list for PBXProject "MDEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5260E5D158B573700A78538 /* Debug */,
+				F5260E5E158B573700A78538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5260E5F158B573700A78538 /* Build configuration list for PBXNativeTarget "MDEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5260E60158B573700A78538 /* Debug */,
+				F5260E61158B573700A78538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5260E3E158B573600A78538 /* Project object */;
+}
